@@ -1,0 +1,123 @@
+#nav {
+    background-color: palegreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    font: Tahoma;
+}
+
+#logo img {
+    width: 80px; /* Adjust the width as needed */
+}
+
+#navbar-title h1 {
+    color: purple;
+    margin: 0;
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+
+
+#nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#nav li {
+    display: inline;
+    padding: 0 15px;
+    vertical-align: middle;
+}
+
+#nav a {
+    text-decoration: none;
+    padding: 8px 8px 8px 8px;
+    color: black;
+    vertical-align: middle;
+}
+
+#nav a:hover {
+    color: black;
+    background-color: white;
+}
+
+.button {
+    background: #e7e7e7;
+    border: 1px solid;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/*
+#theform {
+    color: black;
+    padding: 50px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 400px;
+    margin: 0 auto;
+}
+*/
+
+#theform {
+    color: black;
+    padding: 50px;
+    background: rgba(152, 17, 17, 0.732); /* Glassmorphism background color */
+    background-color: aquamarine;
+    border: 2px solid rgba(127, 51, 41, 0.973); /* Glassmorphism border color */
+    border-radius: 15px; /* Rounded corners */
+    backdrop-filter: blur(10px); /* Glassmorphism blur effect */
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Glassmorphism shadow */
+}
+
+
+
+.row {
+    margin-bottom: 10px;
+}
+
+.row input, #state {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#state {
+    height: 40px;
+}
+
+#state:focus {
+    outline: none;
+}
+
+#state option {
+    background-color: white;
+    color: black;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h2 {
+    color: blueviolet;
+    text-align: center;
+}
+
+#city {
+    width: 100%;
+    padding: 10px;
+}
