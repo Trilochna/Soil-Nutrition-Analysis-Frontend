@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Recommendation</title>
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='stylesheet.css') }}">
+</head>
+<body>
+
+    <body>
+        <div id="nav">
+            <div id="logo">
+                <img src="{{ url_for('static', filename='krshi sahaayak logo.png') }}" alt="Logo">
+            </div>
+            <div id="navbar-title">
+                <h1>KRSHI SAHAAYAK</h1>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">News</a></li>
+                <li><a class="button" href="#">Login</a></li>
+            </ul>
+        </div>
+        
+        <h2>YOU SHOULD GROW : </h2>
+
+    <h4 class="uppercase"> {{ prediction }} </h4>
+</body>
+</html>

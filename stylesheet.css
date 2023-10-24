@@ -11,13 +11,13 @@
 }
 
 #logo img {
-    width: 80px; /* Adjust the width as needed */
+    width: 80px; 
 }
 
 #navbar-title h1 {
     color: purple;
     margin: 0;
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 24px; 
 }
 
 
@@ -59,16 +59,7 @@
     cursor: pointer;
 }
 
-/*
-#theform {
-    color: black;
-    padding: 50px;
-    background-color: aquamarine;
-    border: 2px solid black;
-    width: 400px;
-    margin: 0 auto;
-}
-*/
+
 
 #theform {
     color: black;
@@ -116,6 +107,27 @@ h2 {
     color: blueviolet;
     text-align: center;
 }
+
+h4 {
+    color: black;
+    background-color: aquamarine;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 1000;
+    padding: 50px;
+    background: rgba(55, 228, 255, 0.732); /* Glassmorphism background color */
+    border: 2px solid rgba(127, 51, 41, 0.973); /* Glassmorphism border color */
+    border-radius: 15px; /* Rounded corners */
+    backdrop-filter: blur(10px); /* Glassmorphism blur effect */
+    width: 200px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Glassmorphism shadow */
+}
+
+h4.uppercase {
+    text-transform: uppercase;
+}
+
 
 #city {
     width: 100%;
